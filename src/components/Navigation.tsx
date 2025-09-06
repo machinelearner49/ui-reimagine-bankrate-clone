@@ -10,8 +10,8 @@ const Navigation = () => {
   const { theme, setTheme } = useTheme();
 
   const navItems = [
-    { name: "Banking", href: "#banking" },
-    { name: "Mortgages", href: "#mortgages" },
+    { name: "Banking", href: "/banking" },
+    { name: "Mortgages", href: "/mortgages" },
     { name: "Investing", href: "/investing" },
     { name: "Credit Cards", href: "#credit-cards" },
     { name: "Home Equity", href: "/home-equity" },
